@@ -14,7 +14,8 @@
     "inherits": "^2.0.1",
     "simple-peer": "^4.0.2",
     "ws": "^0.7.1",
-    "xtend": "^4.0.0"
+    "xtend": "^4.0.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "browserify": "^9.0.3",
@@ -67,12 +68,15 @@
     "release": "release-it",
     "release-major": "npm run release -- --increment major",
     "release-minor": "npm run release -- --increment minor",
-    "release-patch": "npm run release -- --increment patch"
+    "release-patch": "npm run release -- --increment patch",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "semistandard": {
     "ignore": [
       "dist",
       "socketpeer*.js"
     ]
-  }
+  },
+  "snyk": true
 }
