@@ -12,7 +12,7 @@
   "dependencies": {
     "cross-env": "^4.0.0",
     "inherits": "^2.0.1",
-    "simple-peer": "^4.0.2",
+    "simple-peer": "^5.0.0",
     "ws": "^0.7.1",
     "xtend": "^4.0.0"
   },
