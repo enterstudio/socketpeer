@@ -10,7 +10,7 @@
     "url": "https://github.com/cvan/socketpeer/issues"
   },
   "dependencies": {
-    "cross-env": "^4.0.0",
+    "cross-env": "^5.2.0",
     "inherits": "^2.0.1",
     "simple-peer": "^4.0.2",
     "ws": "^0.7.1",
